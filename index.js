@@ -74,8 +74,8 @@ no: ":no_entry:"
 const {Panel} = require("@akarui/aoi.panel")
 
 const panel = new Panel({
-    username: "shiko",//username for logging in
-    password: "180880",//password for logging in
+    username: "username",//username for logging in
+    password: "password",//password for logging in
     secret: "aoijs",//session secret
     port: 3000,//port on which website is hosted, Not required! Default 3000
     bot: bot,//your aoi.js client
