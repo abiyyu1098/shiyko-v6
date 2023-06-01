@@ -26,7 +26,7 @@ const bot = new aoi.AoiClient({
             dbType: "KeyValue"
         }
     }
-})
+})//aaaaaa
 
 bot.readyCommand({
 code: `$log[$getBotInvite]`
